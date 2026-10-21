@@ -1,0 +1,41 @@
+# Nexus IQ — Security & Local Files
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and runtime artifacts
+*.log
+logs/
+runtime/
+cache/
+tmp/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
